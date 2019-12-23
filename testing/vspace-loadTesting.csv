@@ -1,0 +1,10 @@
+Cluster: Spark1/2/3 Timings for various loads in hours
+GB,5grams,6grams,,
+1,0.14,0.15,,
+5,0.33,0.37,,
+10,0.61,0.67,,
+20,Tbd,1.28,,
+30,Tbd,1.42,,
+50,,2.46,,
+100,Tbd,5.15,,
+265,Tbd,14.89,,
