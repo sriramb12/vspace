@@ -48,6 +48,8 @@ otherwise
 
 ```
 spark-submit --py-files path/to/vspace-X.Y.Z-py3.7.egg path/to/vspace/source/bin/vspace-main.py path/to/job.conf
+Ex:
+SPARK_CONF_DIR=$PWD/conf/ PYTHONPATH=$PYTHONPATH:$PWD spark-submit --py-files dist/vspace-0.0.1-py3.7.egg bin/vspace-main.py corp.conf
 ```
 
 All input files (phrases, collections, corpus, index, source-to-subsourcess mapping) should present in `vspace_conf.stagingloc`, as defined in the configuration.
